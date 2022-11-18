@@ -1,0 +1,288 @@
+.main {
+    margin-top: 90px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.earn_more {
+    width: 362px;
+    height: 116px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 58px;
+    color: #E4E5EA;
+
+}
+
+.welbex {
+    height: 58px;
+}
+
+.welbex img {
+    height: 58px;
+    width: 247px;
+}
+
+.other_text{
+    width: 275px;
+    height: 44px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    /* light text */
+    color: #E4E5EA;
+    margin-top: 30px;
+}
+
+.right_info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.vmeste_s_bespl {
+    width: 291px;
+    height: 44px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: right;
+    /* light text */
+    color: #E4E5EA;
+}
+
+.mobile_block {
+    display: none;
+}
+
+.vmeste_s_bespl img {
+    width: 291px;
+    height: 44px;
+}
+.vidgets_dashboard {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.vid_dash_headings {
+    display: flex;
+    justify-content: space-between;
+    width: 267px;
+    height: 22px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    /* identical to box height */
+    letter-spacing: 0.05em;
+    /* light text */
+    color: #E4E5EA;
+    margin-top: 40px;
+}
+
+.vid_dash_info {
+    display: flex;
+    justify-content: space-between;
+    width: 255px;
+    height: 40px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #E4E5EA;
+    margin-top: 6px;
+}
+
+.vidget_info {
+    width: 89px;
+    height: 40px;
+    text-align: right;
+}
+
+.dashboard_info {
+    width: 135px;
+    height: 40px;
+    text-align: right;
+}
+
+.skype_35days {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.skype_35_headings {
+    display: flex;
+    justify-content: space-between;
+    width: 299px;
+    height: 22px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    /* identical to box height */
+    /* light text */
+    color: #E4E5EA;
+    margin-top: 30px;
+}
+
+.skype_35_info {
+    display: flex;
+    justify-content: space-between;
+    width: 330px;
+    height: 40px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #E4E5EA;
+    margin-top: 6px;
+}
+
+.skype_info {
+    display: flex;
+    flex-direction: column;
+}
+.skype_info1 {
+    width: 164px;
+    height: 40px;
+    text-align: right;
+}
+
+.skype_info2 {
+    width: 164px;
+    height: 40px;
+    text-align: right;
+}
+
+.days35_info {
+    width: 130px;
+    height: 40px;
+    text-align: right;
+}
+
+.button_consult {
+    margin-top: 61px;
+}
+
+.button_consult button {
+    cursor: pointer;
+    width: 262px;
+    height: 61px;
+    background: #4077F3;
+    border: none;
+}
+
+.button_text {
+    width: 193px;
+    height: 19px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    margin: auto;
+    /* light text */
+    color: #E4E5EA;
+}
+
+
+@media (max-width: 440px) {
+    .earn_more {
+        width: 272px;
+        height: 88px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 36px;
+        line-height: 44px;
+        /* light text */
+        color: #E4E5EA;
+        margin-left: 14px;
+        margin-top: 40px;
+    }
+    .main {
+        display: block;
+        margin-top: 20px;
+        width: 320px;
+        height: 445px;
+        background-image: url('../../img/background.png');
+        border: 1px solid #1E1E1E;
+    }
+    .welbex {
+        margin-left: 15px;
+        height: 44px;
+    }
+
+    .welbex img {
+        height: 48px;
+        width: 186px;
+    }
+    .other_text{
+        width: 271px;
+        height: 44px;
+        margin-top: 15px;
+        margin-left: 15px;
+    }
+    .vmeste_s_bespl {
+       display: none;
+    }
+
+.mobile_block {
+
+}
+    .vmeste_s_bespl2 {
+        width: 272px;
+        height: 44px;
+    }
+    .right_info {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-left: 15px;
+        margin-top: 45px;
+    }
+    .vidgets_dashboard {
+        display: none;
+    }
+    .skype_35days {
+        display: none;
+    }
+    .mobile_block {
+        display: block;
+    }
+    .skype_35_mobile {
+        display: flex;
+        justify-content: space-between;
+        width: 247px;
+        margin-top: 20px;
+        display: flex;
+        height: 18px;
+    }
+    .dash_amo_mobile {
+        display: flex;
+        justify-content: space-between;
+        width: 266px;
+        margin-top: 14px;
+        display: flex;
+        height: 18px;
+    }
+    .button_consult {
+        display: none;
+    }
+    .red_ball {
+        opacity: 0.6;
+    }
+    .red_ball img {
+        backdrop-filter: blur(2px);
+        opacity: 0.6;
+    }
+}
+
+

@@ -1,0 +1,308 @@
+.footer_menu {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 124px;
+}
+
+
+.company_menu_cont {
+    width: 701px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.about_company_title {
+    width: 108px;
+    height: 17px;
+    /* маленькие заголовки */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    /* dark gray */
+    color: #656566;
+}
+
+.about_company_list {
+    margin-top: 20px;
+    width: 195px;
+    height: 48px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    /* light text */
+    color: #E4E5EA;
+}
+
+.about_company_ul {
+    list-style-type: none;
+}
+
+.about_company_ul li {
+    margin-top: 10px;
+}
+
+
+.menu_container {
+    width: 408px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu {
+
+}
+
+.menu_title {
+    width: 49px;
+    height: 17px;
+    /* маленькие заголовки */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    /* dark gray */
+    color: #656566;
+}
+
+.menu_list {
+    margin-top: 20px;
+    width: 144px;
+    height: 135px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    /* light text */
+    color: #E4E5EA;
+
+}
+
+.menu_ul {
+    list-style-type: none;
+}
+
+.menu_ul li {
+    margin-top: 10px;
+}
+
+.second_menu {
+    margin-top: 27px;
+    width: 212px;
+    height: 145px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    /* light text */
+    color: #E4E5EA;
+}
+
+.second_menu_ul {
+    list-style-type: none;
+}
+
+.second_menu_ul_mobile {
+    display: none;
+}
+
+.second_menu_ul li {
+    margin-top: 10px;
+}
+
+.contacts {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.contacts_title {
+    width: 86px;
+    height: 17px;
+    /* маленькие заголовки */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    /* identical to box height */
+    text-align: right;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    /* dark gray */
+    color: #656566;
+}
+
+.phone_icons {
+
+}
+
+.contacts_icon {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 137px;
+    width: 308px;
+    margin-top: 15px;
+}
+
+.phone_number {
+    margin-top: 20px;
+    width: 143px;
+    height: 19px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: right;
+    /* light text */
+    color: #E4E5EA;
+}
+
+.messengers_icons {
+    margin-top: 20px;
+    width: 76.33px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.icon_telegram {
+    height: 13.99px;
+    width: 16.68px;
+}
+
+.icon_phone {
+    height: 15.2px;
+    width: 16px;
+}
+
+.icon_whatsapp {
+    height: 16px;
+    width: 16px;
+}
+
+.adress {
+    margin-top: 21.8px;
+    width: 277px;
+    height: 19px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: right;
+    /* light text */
+    color: #E4E5EA;
+}
+
+@media (max-width: 440px) {
+    .footer_menu {
+        margin-top: 35px;
+        margin-left: 15px;
+        flex-direction: column;
+    }
+
+    .company_menu_cont {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .about_company_list {
+        font-size: 14px;
+    }
+
+    .second_menu_ul {
+        display: none;
+    }
+
+    .second_menu_ul_mobile {
+        list-style-type: none;
+        display: block;
+    }
+    .second_menu_ul_mobile li {
+        margin-top: 10px;
+    }
+    .menu_list {
+        width: 100px;
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 17px;
+
+    }
+    .second_menu {
+        width: 123px;
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 17px;
+        margin-top: 55px;
+
+    }
+    .menu_title {
+        margin-top: 30px;
+    }
+    .menu_container {
+        width: 271px;
+        height: 210px;
+    }
+    .menu_title {
+        height: 15px;
+        font-size: 12px;
+        line-height: 15px;
+    }
+    .about_company_title {
+        height: 15px;
+        font-size: 12px;
+        line-height: 15px;
+    }
+    .contacts {
+        margin-top: 30px;
+        width: 243px;
+        align-items: flex-start;
+    }
+    .contacts_title {
+        font-size: 12px;
+        line-height: 15px;
+        text-align: left;
+    }
+    .icon_telegram {
+        height: 16.79px;
+        width: 20.02px;
+    }
+
+    .icon_phone {
+        height: 20px;
+        width: 19px;
+    }
+
+    .icon_whatsapp {
+        height: 19.2px;
+        width: 19.2px;
+    }
+
+    .adress {
+        margin-top: 12px;
+        width: 243px;
+        height: 19px;
+        font-size: 14px;
+        line-height: 17px;
+        text-align: left;
+
+    }
+    .messengers_icons {
+        margin-top: 12px;
+        width: 87.6px;
+        display: flex;
+        justify-content: space-between;
+    }
+}
