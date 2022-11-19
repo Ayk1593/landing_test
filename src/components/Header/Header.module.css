@@ -4,6 +4,15 @@
     display: flex;
 }
 
+@media (max-width: 1200px) {
+    .header {
+        height: auto;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
+
+
 .header__list {
     display: flex;
 }
@@ -67,12 +76,23 @@
     width: 503px;
 }
 
+@media (max-width: 570px) {
+    .header__nav {
+     display: none;
+    }
+}
+
+@media (max-width: 1200px) {
+    .header__nav {
+        margin-left: 0px;
+    }
+}
+
 .header__list {
     width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-
 }
 
 
@@ -82,6 +102,18 @@
     margin-left: 137px;
     width: 308px;
     margin-top: 15px;
+}
+
+@media (max-width: 570px) {
+    .contacts_icon {
+        display: none;
+    }
+}
+
+@media (max-width: 1200px) {
+    .contacts_icon {
+        margin-left: 0px;
+    }
 }
 
 .phone_number {
@@ -135,18 +167,23 @@
         text-transform: uppercase;
         font-size: 13px;
     }
+
     .header__list {
-        width: 300px;
+        width: auto;
         display: flex;
         justify-content: space-around;
     }
+
     .header {
         height: 15px;
         margin-top: 20px;
+        flex-direction: row;
     }
+
     .header__nav {
         height: 15px;
         margin-left: 0px;
         margin-top: 0px;
+        display: block;
     }
 }

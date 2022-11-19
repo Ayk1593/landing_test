@@ -38,5 +38,35 @@ time, mark, audio, video {
   }
 }
 
+@media (max-width: 1200px) {
+  .wrapper {
+    max-width: 900px;
+  }
+}
+
+@media (max-width: 980px) {
+  .wrapper {
+    max-width: 650px;
+  }
+}
+
+@media (max-width: 720px) {
+  .wrapper {
+    max-width: 530px;
+  }
+}
+
+@media (max-width: 680px) {
+  .wrapper {
+    max-width: 480px;
+  }
+}
+
+@media (max-width: 570px) {
+  .wrapper {
+    max-width: 380px;
+  }
+}
+
 
 

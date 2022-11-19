@@ -4,6 +4,12 @@
     justify-content: space-between;
 }
 
+@media (max-width: 980px) {
+    .main {
+        flex-direction: column;
+    }
+}
+
 .earn_more {
     width: 362px;
     height: 116px;
@@ -42,6 +48,12 @@
     display: flex;
     flex-direction: column;
     align-items: flex-end;
+}
+
+@media (max-width: 980px) {
+    .right_info {
+        margin-top: 50px;
+    }
 }
 .vmeste_s_bespl {
     width: 291px;
