@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/landing_test/static/css/main.8eddfde3.css",
-    "main.js": "/landing_test/static/js/main.121ac94f.js",
+    "main.css": "/landing_test/static/css/main.aacf8a73.css",
+    "main.js": "/landing_test/static/js/main.a4de1809.js",
     "static/js/787.69326140.chunk.js": "/landing_test/static/js/787.69326140.chunk.js",
     "static/media/red light.png": "/landing_test/static/media/red light.856b2e8abf9df683d802.png",
     "static/media/purple light.png": "/landing_test/static/media/purple light.ee3674b4e7f0fb83dd0f.png",
@@ -25,26 +25,26 @@
     "static/media/inter-v12-latin_cyrillic-200.woff2": "/landing_test/static/media/inter-v12-latin_cyrillic-200.c55a29db74533ec42c12.woff2",
     "static/media/inter-v12-latin_cyrillic-300.woff2": "/landing_test/static/media/inter-v12-latin_cyrillic-300.d22c49d34a92a601b0fd.woff2",
     "static/media/inter-v12-latin_cyrillic-900.woff2": "/landing_test/static/media/inter-v12-latin_cyrillic-900.b95aa58f7ce664a2bc2e.woff2",
-    "static/media/vmeste_s_bespl.svg": "/landing_test/static/media/vmeste_s_bespl.a9f5760ca3482d671129f8ebf3d57e8a.svg",
+    "static/media/vmeste_s_bespl.svg": "/landing_test/static/media/vmeste_s_bespl.473755d6cd101d325f7c2adcedbd2f9f.svg",
     "static/media/inter-v12-latin_cyrillic-regular.woff2": "/landing_test/static/media/inter-v12-latin_cyrillic-regular.b0a21561d96f6b662763.woff2",
     "static/media/montserrat-v25-latin_cyrillic-regular.woff2": "/landing_test/static/media/montserrat-v25-latin_cyrillic-regular.62c0f043622de8dcd791.woff2",
     "static/media/montserrat-v25-latin_cyrillic-300.woff2": "/landing_test/static/media/montserrat-v25-latin_cyrillic-300.d63243678e8d1b5be3ef.woff2",
-    "static/media/vmeste_s_bespl2.svg": "/landing_test/static/media/vmeste_s_bespl2.6802f2e24a508a5098f029d15be525dc.svg",
-    "static/media/WELBEX.svg": "/landing_test/static/media/WELBEX.a340fe1c646e38976df9ed92bd039a02.svg",
-    "static/media/logo_welbex.svg": "/landing_test/static/media/logo_welbex.2e08d1bd108cb8b2aee116b1817d851e.svg",
-    "static/media/whatsapp.svg": "/landing_test/static/media/whatsapp.c3d7a933a8355b23bc435ff74d3849c1.svg",
-    "static/media/phone.svg": "/landing_test/static/media/phone.cf9c56ecdadaadbb83004223aedc739c.svg",
-    "static/media/small red ball.svg": "/landing_test/static/media/small red ball.e0cfd585b5aa004e7899e00ff8c97cf4.svg",
-    "static/media/purple ball.svg": "/landing_test/static/media/purple ball.5183c75bdfdc477e9148312d22bdcf94.svg",
-    "static/media/red ball.svg": "/landing_test/static/media/red ball.d0944b6e50e80d4994d492177a6b660c.svg",
+    "static/media/vmeste_s_bespl2.svg": "/landing_test/static/media/vmeste_s_bespl2.acae648e9daec5f02380d692f3fd1433.svg",
+    "static/media/WELBEX.svg": "/landing_test/static/media/WELBEX.6b4ca079e65ef5cd372d2a88982669bd.svg",
+    "static/media/logo_welbex.svg": "/landing_test/static/media/logo_welbex.3c343290f6e5212dfe6da40995b0cc51.svg",
+    "static/media/whatsapp.svg": "/landing_test/static/media/whatsapp.c793f1ae1fe1ca9d2d3281cbeb9d77a8.svg",
+    "static/media/phone.svg": "/landing_test/static/media/phone.68cafd33e320a578baba5f4f12d7ef5a.svg",
+    "static/media/small red ball.svg": "/landing_test/static/media/small red ball.746b5dfc87e566363396d8f52ad276ae.svg",
+    "static/media/purple ball.svg": "/landing_test/static/media/purple ball.8c38e4c66dfc6539afa2c82900461cc5.svg",
+    "static/media/red ball.svg": "/landing_test/static/media/red ball.fe98751192a1f1e666f8db3d082fa9a3.svg",
     "index.html": "/landing_test/index.html",
-    "static/media/telegram.svg": "/landing_test/static/media/telegram.ec28ad3ae01fc187af4c6626094c876b.svg",
-    "main.8eddfde3.css.map": "/landing_test/static/css/main.8eddfde3.css.map",
-    "main.121ac94f.js.map": "/landing_test/static/js/main.121ac94f.js.map",
+    "static/media/telegram.svg": "/landing_test/static/media/telegram.bbdfd49ca3491cd8b259261acb41fd7f.svg",
+    "main.aacf8a73.css.map": "/landing_test/static/css/main.aacf8a73.css.map",
+    "main.a4de1809.js.map": "/landing_test/static/js/main.a4de1809.js.map",
     "787.69326140.chunk.js.map": "/landing_test/static/js/787.69326140.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8eddfde3.css",
-    "static/js/main.121ac94f.js"
+    "static/css/main.aacf8a73.css",
+    "static/js/main.a4de1809.js"
   ]
 }
