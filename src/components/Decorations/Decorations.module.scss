@@ -1,0 +1,80 @@
+.decor_cont_mobile {
+  display: none;
+
+  @media (max-width: 440px) {
+    display: block;
+  }
+}
+
+.top_box {
+  position: absolute;
+  width: 259px;
+  height: 259px;
+  left: 73px;
+  top: -44px;
+}
+
+
+.left_box {
+  position: absolute;
+  width: 311px;
+  height: 311px;
+  left: -5px;
+  top: 50px;
+}
+
+.left_box img {
+  height: 900px;
+}
+
+.center_red_ball {
+  position: absolute;
+  left: 464px;
+  top: 78px;
+  width: 83px;
+  height: 83px
+}
+
+
+.top_purple_ball {
+  position: absolute;
+  left: 820px;
+  top: -2px;
+  width: 60px;
+  height: 60px;
+}
+
+.top_purple_ball {
+
+}
+
+.small_ball {
+  width: 28px;
+  height: 28px;
+  position: absolute;
+  left: 810px;
+  top: 520px
+}
+
+@media (max-width: 440px) {
+  .decor_cont {
+    display: none;
+  }
+  .red_light {
+    position: absolute;
+    top: 58px;
+    left: 5px;
+  }
+  .purple_ball {
+    position: absolute;
+    top: 278px;
+    left: 285px;
+    opacity: 0.8;
+  }
+  .purple_light {
+    position: absolute;
+    top: 54px;
+    left: 38px;
+  }
+
+}

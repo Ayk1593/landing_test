@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './FooterMenu.module.css'
+import styles from './FooterMenu.module.scss'
 import telegram_icon from "../../img/telegram.svg";
 import phone_icon from "../../img/phone.svg";
 import whatsapp_icon from "../../img/whatsapp.svg";

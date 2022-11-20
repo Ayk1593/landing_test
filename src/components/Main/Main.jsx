@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './Main.module.css'
+import styles from './Main.module.scss'
 import welbex from '../../img/WELBEX.svg'
 import vmeste_s_bespl from '../../img/vmeste_s_bespl.svg'
 import vmeste_s_bespl2 from '../../img/vmeste_s_bespl2.svg'
@@ -8,7 +8,6 @@ import vidgets30 from '../../img/30vidgets.png'
 import dashboard from '../../img/dashboard.png'
 import amocrm from '../../img/amocrm.png'
 import red_ball_mob from "../../img/red ball-mobile.png";
-import purple_ball_mob from "../../img/purple ball_mobile.png";
 
 const Main = () => {
     return (

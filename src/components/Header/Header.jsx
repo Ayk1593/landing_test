@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './Header.module.css'
+import styles from './Header.module.scss'
 import header_logo from '../../img/logo_welbex.svg';
 import telegram_icon from '../../img/telegram.svg'
 import phone_icon from '../../img/phone.svg'

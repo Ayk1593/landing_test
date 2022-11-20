@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './Decorations.module.css'
+import styles from './Decorations.module.scss'
 import red_ball from '../../img/red ball.svg'
 import purple_ball from '../../img/purple ball.svg'
 import small_red_ball from '../../img/small red ball.svg'
