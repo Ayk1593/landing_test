@@ -8,6 +8,7 @@ import vidgets30 from '../../img/30vidgets.png'
 import dashboard from '../../img/dashboard.png'
 import amocrm from '../../img/amocrm.png'
 import red_ball_mob from "../../img/red ball-mobile.png";
+import small_red_ball from "../../img/small red ball.svg";
 
 const Main = () => {
     return (
@@ -70,6 +71,9 @@ const Main = () => {
                     <button>
                         <div className={styles.button_text}>Получить консультацию</div>
                     </button>
+                    <div className={styles.small_ball}>
+                        <img src={small_red_ball}/>
+                    </div>
                 </div>
             </div>
         </div>

@@ -23,16 +23,31 @@ time, mark, audio, video {
   max-width: 1440px;
   max-height: 980px;
   /*border: 1px solid white;*/
+
 }
-.wrapper{
+
+.wrapper {
   max-width: 1140px;
   margin: 0 auto;
   /*border: 1px solid white;*/
 }
 
+
 @media (max-width: 440px) {
   .container {
+    max-width: 400px;
+    max-height: 1115px;
+    margin: auto;
+  }
+}
+
+@media (max-width: 360px) {
+  .container {
     max-width: 320px;
+
+  }
+  .wrapper {
+    max-width: 280px;
     max-height: 1115px;
     margin: auto;
   }
@@ -56,15 +71,21 @@ time, mark, audio, video {
   }
 }
 
-@media (max-width: 680px) {
+@media (max-width: 590px) {
   .wrapper {
-    max-width: 480px;
+    max-width: 470px;
   }
 }
 
-@media (max-width: 570px) {
+@media (max-width: 550px) {
   .wrapper {
-    max-width: 380px;
+    max-width: 420px;
+  }
+}
+
+@media (max-width: 470px) {
+  .wrapper {
+    max-width: 370px;
   }
 }
 

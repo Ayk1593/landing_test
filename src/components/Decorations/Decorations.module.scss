@@ -1,10 +1,3 @@
-.decor_cont_mobile {
-  display: none;
-
-  @media (max-width: 440px) {
-    display: block;
-  }
-}
 
 .top_box {
   position: absolute;
@@ -57,20 +50,10 @@
 }
 
 @media (max-width: 440px) {
-  .decor_cont {
-    display: none;
-  }
-  .red_light {
-    position: absolute;
-    top: 58px;
-    left: 5px;
-  }
-  .purple_ball {
-    position: absolute;
-    top: 278px;
-    left: 285px;
+  .left_box {
     opacity: 0.8;
   }
+
   .purple_light {
     position: absolute;
     top: 54px;

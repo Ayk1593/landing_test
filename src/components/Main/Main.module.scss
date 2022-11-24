@@ -1,13 +1,14 @@
+
 .main {
   margin-top: 90px;
   display: flex;
   justify-content: space-between;
 
   @media (max-width: 980px) {
-      flex-direction: column;
-    }
+    flex-direction: column;
+  }
 
-  @media (max-width: 440px)  {
+  @media (max-width: 440px) {
     display: block;
     margin-top: 20px;
     width: 320px;
@@ -38,7 +39,10 @@
     /* light text */
     color: #E4E5EA;
     margin-left: 14px;
-    margin-top: 40px;
+    margin-top: 80px;
+  }
+  @media (max-width: 320px) {
+    font-size: 32px;
   }
 }
 
@@ -81,6 +85,10 @@
     margin-top: 15px;
     margin-left: 15px;
   }
+
+  @media (max-width: 320px) {
+    font-size: 14px;
+  }
 }
 
 .right_info {
@@ -89,8 +97,8 @@
   align-items: flex-end;
 
   @media (max-width: 980px) {
-      margin-top: 50px;
-    }
+    margin-top: 50px;
+  }
   @media (max-width: 440px) {
     display: flex;
     flex-direction: column;
@@ -99,7 +107,6 @@
     margin-top: 45px;
   }
 }
-
 
 
 .vmeste_s_bespl {
@@ -195,7 +202,7 @@
   flex-direction: column;
   align-items: flex-end;
 
-  @media (max-width: 440px)  {
+  @media (max-width: 440px) {
     display: none;
   }
 }
@@ -271,9 +278,20 @@
 
 .button_consult {
   margin-top: 61px;
+  position: relative;
 
   @media (max-width: 440px) {
     display: none;
+  }
+}
+
+.small_ball {
+  position: absolute;
+  top: 5px;
+  left: -180px;
+
+  @media (max-width: 570px) {
+    left: -70px;
   }
 }
 
@@ -302,103 +320,12 @@
 .red_ball {
   opacity: 0.6;
 }
+
 .red_ball img {
   backdrop-filter: blur(2px);
   opacity: 0.6;
 }
 
 
-
-//@media (max-width: 440px) {
-//  .earn_more {
-//    width: 272px;
-//    height: 88px;
-//    font-family: 'Inter';
-//    font-style: normal;
-//    font-weight: 300;
-//    font-size: 36px;
-//    line-height: 44px;
-//    /* light text */
-//    color: #E4E5EA;
-//    margin-left: 14px;
-//    margin-top: 40px;
-//  }
-//  .main {
-//    display: block;
-//    margin-top: 20px;
-//    width: 320px;
-//    height: 445px;
-//    background-image: url('../../img/background.png');
-//    border: 1px solid #1E1E1E;
-//  }
-//  .welbex {
-//    margin-left: 15px;
-//    height: 44px;
-//  }
-//
-//  .welbex img {
-//    height: 48px;
-//    width: 186px;
-//  }
-//  .other_text {
-//    width: 271px;
-//    height: 44px;
-//    margin-top: 15px;
-//    margin-left: 15px;
-//  }
-//  .vmeste_s_bespl {
-//    display: none;
-//  }
-//
-//  .mobile_block {
-//
-//  }
-//  .vmeste_s_bespl2 {
-//    width: 272px;
-//    height: 44px;
-//  }
-//  .right_info {
-//    display: flex;
-//    flex-direction: column;
-//    align-items: flex-start;
-//    margin-left: 15px;
-//    margin-top: 45px;
-//  }
-//  .vidgets_dashboard {
-//    display: none;
-//  }
-//  .skype_35days {
-//    display: none;
-//  }
-//  .mobile_block {
-//    display: block;
-//  }
-//  .skype_35_mobile {
-//    display: flex;
-//    justify-content: space-between;
-//    width: 247px;
-//    margin-top: 20px;
-//    display: flex;
-//    height: 18px;
-//  }
-//  .dash_amo_mobile {
-//    display: flex;
-//    justify-content: space-between;
-//    width: 266px;
-//    margin-top: 14px;
-//    display: flex;
-//    height: 18px;
-//  }
-//  .button_consult {
-//    display: none;
-//  }
-//  .red_ball {
-//    opacity: 0.6;
-//  }
-//  .red_ball img {
-//    backdrop-filter: blur(2px);
-//    opacity: 0.6;
-//  }
-//}
 
 
