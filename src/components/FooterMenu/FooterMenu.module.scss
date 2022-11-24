@@ -150,7 +150,7 @@
   /* light text */
   color: #E4E5EA;
 
-    @media (max-width: 360px) {
+    @media (max-width: 440px) {
       width: 100px;
       font-weight: 300;
       font-size: 14px;
@@ -179,8 +179,6 @@
   /* light text */
   color: #E4E5EA;
 
-
-
   @media (max-width: 490px) {
     margin-left: 25px;
   }
@@ -188,11 +186,12 @@
   @media (max-width: 440px) {;
     margin-top: 55px;
   }
-  @media (max-width: 360px) {
+  @media (max-width: 440px) {
     width: 123px;
     font-weight: 300;
     font-size: 14px;
     line-height: 17px;
+    margin-left: 65px;
     margin-top: 55px;
   }
 }
@@ -213,9 +212,6 @@
   @media (max-width: 570px) {
     list-style-type: none;
     display: block;
-  }
-  @media (max-width: 440px) {
-   //margin-top: 40px;
   }
 }
 
@@ -362,107 +358,5 @@
   }
 }
 
-//@media (max-width: 440px) {
-//  .footer_menu {
-//    margin-top: 35px;
-//    margin-left: 15px;
-//    flex-direction: column;
-//  }
-//
-//  .company_menu_cont {
-//    display: flex;
-//    flex-direction: column;
-//  }
-//
-//
-//  .about_company_list {
-//    font-size: 14px;
-//  }
-//
-//  .second_menu_ul {
-//    display: none;
-//  }
-//
-//  .second_menu_ul_mobile {
-//    list-style-type: none;
-//    display: block;
-//  }
-//  .second_menu_ul_mobile li {
-//    margin-top: 10px;
-//  }
-//  .menu_list {
-//    width: 100px;
-//    font-weight: 300;
-//    font-size: 14px;
-//    line-height: 17px;
-//
-//  }
-//  .second_menu {
-//    width: 123px;
-//    font-weight: 300;
-//    font-size: 14px;
-//    line-height: 17px;
-//    margin-top: 55px;
-//
-//  }
-//  .menu_title {
-//    margin-top: 30px;
-//  }
-//  .menu_container {
-//    width: 271px;
-//    height: 210px;
-//    margin-top: 0px;
-//    justify-content: space-between;
-//  }
-//
-//  .menu_title {
-//    height: 15px;
-//    font-size: 12px;
-//    line-height: 15px;
-//  }
-//  .about_company_title {
-//    height: 15px;
-//    font-size: 12px;
-//    line-height: 15px;
-//  }
-//  .contacts {
-//    margin-top: 30px;
-//    width: 243px;
-//    align-items: flex-start;
-//  }
-//  .contacts_title {
-//    font-size: 12px;
-//    line-height: 15px;
-//    text-align: left;
-//  }
-//  .icon_telegram {
-//    height: 16.79px;
-//    width: 20.02px;
-//  }
-//
-//  .icon_phone {
-//    height: 20px;
-//    width: 19px;
-//  }
-//
-//  .icon_whatsapp {
-//    height: 19.2px;
-//    width: 19.2px;
-//  }
-//
-//  .adress {
-//    margin-top: 12px;
-//    width: 243px;
-//    height: 19px;
-//    font-size: 14px;
-//    line-height: 17px;
-//    text-align: left;
-//
-//  }
-//  .messengers_icons {
-//    margin-top: 12px;
-//    width: 87.6px;
-//    display: flex;
-//    justify-content: space-between;
-//  }
-//}
+
+

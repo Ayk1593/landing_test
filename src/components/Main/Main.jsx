@@ -9,6 +9,7 @@ import dashboard from '../../img/dashboard.png'
 import amocrm from '../../img/amocrm.png'
 import red_ball_mob from "../../img/red ball-mobile.png";
 import small_red_ball from "../../img/small red ball.svg";
+import red_light from "../../img/red light.png";
 
 const Main = () => {
     return (
@@ -39,9 +40,6 @@ const Main = () => {
                             <div><img src={dashboard}/> </div>
                             <div><img src={amocrm}/> </div>
                         </div>
-                    </div>
-                    <div className={styles.red_ball}>
-                        <img src={red_ball_mob}/>
                     </div>
                 </div>
                 <div className={styles.vidgets_dashboard}>

@@ -1,5 +1,6 @@
 
 .main {
+  position: relative;
   margin-top: 90px;
   display: flex;
   justify-content: space-between;
@@ -317,14 +318,6 @@
   color: #E4E5EA;
 }
 
-.red_ball {
-  opacity: 0.6;
-}
-
-.red_ball img {
-  backdrop-filter: blur(2px);
-  opacity: 0.6;
-}
 
 
 
