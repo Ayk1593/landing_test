@@ -22,7 +22,7 @@ time, mark, audio, video {
 .container {
   max-width: 1440px;
   max-height: 980px;
-  border: 1px solid white;
+/*   border: 1px solid white; */
 }
 .wrapper{
   max-width: 1140px;
