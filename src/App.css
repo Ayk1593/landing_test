@@ -22,13 +22,13 @@ time, mark, audio, video {
 .container {
   max-width: 1440px;
   max-height: 980px;
-  /*border: 1px solid white;*/
+  border: 1px solid white;
 }
 
 .wrapper {
   max-width: 1140px;
   margin: 0 auto;
-  /*border: 1px solid white;*/
+  border: 1px solid white;
 }
 
 
@@ -53,36 +53,73 @@ time, mark, audio, video {
 }
 
 @media (max-width: 1200px) {
+  .container {
+    max-width: 1200px;
+  }
   .wrapper {
     max-width: 900px;
   }
 }
 
-@media (max-width: 980px) {
+@media (max-width: 1000px) {
+  .container {
+    max-width: 970px;
+  }
   .wrapper {
-    max-width: 650px;
+    max-width: 780px;
   }
 }
 
+@media (max-width: 980px) {
+  .container {
+    max-width: 980px;
+  }
+  .wrapper {
+    max-width: 780px;
+  }
+}
+
+@media (max-width: 880px) {
+  .container {
+    max-width: 880px;
+  }
+  .wrapper {
+    max-width: 680px;
+  }
+}
+
+
 @media (max-width: 720px) {
+  .container {
+    max-width: 720px;
+  }
   .wrapper {
     max-width: 530px;
   }
 }
 
 @media (max-width: 590px) {
+  .container {
+    max-width: 590px;
+  }
   .wrapper {
     max-width: 470px;
   }
 }
 
 @media (max-width: 550px) {
+  .container {
+    max-width: 550px;
+  }
   .wrapper {
     max-width: 420px;
   }
 }
 
 @media (max-width: 470px) {
+  .container {
+    max-width: 470px;
+  }
   .wrapper {
     max-width: 370px;
   }
