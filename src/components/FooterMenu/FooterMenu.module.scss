@@ -15,6 +15,7 @@
 
 
 .company_menu_cont {
+  margin-top: -80px;
   width: 701px;
   display: flex;
   justify-content: space-between;
@@ -107,10 +108,10 @@
   }
 
   @media (max-width: 360px) {
-    width: 271px;
+    width: 290px;
     height: 210px;
     margin-top: 0px;
-    justify-content: space-between;
+    justify-content: flex-start;
   }
 }
 
@@ -193,6 +194,9 @@
     line-height: 17px;
     margin-left: 65px;
     margin-top: 55px;
+  }
+  @media (max-width: 360px) {
+    margin-left: 40px;
   }
 }
 
