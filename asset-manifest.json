@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/landing_test/static/css/main.0c3a154d.css",
+    "main.css": "/landing_test/static/css/main.9e8087b1.css",
     "main.js": "/landing_test/static/js/main.48793580.js",
     "static/js/787.69326140.chunk.js": "/landing_test/static/js/787.69326140.chunk.js",
     "static/media/red light.png": "/landing_test/static/media/red light.856b2e8abf9df683d802.png",
@@ -37,12 +37,12 @@
     "static/media/red ball.svg": "/landing_test/static/media/red ball.fe98751192a1f1e666f8db3d082fa9a3.svg",
     "index.html": "/landing_test/index.html",
     "static/media/telegram.svg": "/landing_test/static/media/telegram.bbdfd49ca3491cd8b259261acb41fd7f.svg",
-    "main.0c3a154d.css.map": "/landing_test/static/css/main.0c3a154d.css.map",
+    "main.9e8087b1.css.map": "/landing_test/static/css/main.9e8087b1.css.map",
     "main.48793580.js.map": "/landing_test/static/js/main.48793580.js.map",
     "787.69326140.chunk.js.map": "/landing_test/static/js/787.69326140.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0c3a154d.css",
+    "static/css/main.9e8087b1.css",
     "static/js/main.48793580.js"
   ]
 }
